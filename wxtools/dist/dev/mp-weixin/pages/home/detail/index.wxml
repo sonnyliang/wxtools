@@ -1,0 +1,1 @@
+<view class="container" style="margin:50rpx;"><u-parse vue-id="c334a66a-1" content="{{content}}" bind:__l="__l"></u-parse></view>

@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "OrderList",
+  "usingComponents": {
+    "wyb-table": "/components/wyb-table/wyb-table"
+  }
+}

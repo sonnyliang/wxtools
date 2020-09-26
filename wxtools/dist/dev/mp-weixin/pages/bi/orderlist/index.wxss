@@ -1,0 +1,14 @@
+
+.filter{
+    display:-webkit-box;
+    display:-webkit-flex;
+    display:flex;
+    height:20vh;
+}
+.table{
+    display:-webkit-box;
+    display:-webkit-flex;
+    display:flex;
+    height:80vh;
+}
+

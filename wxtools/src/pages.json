@@ -1,0 +1,91 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/home/index",
+			"style": {
+				"navigationBarTitleText": "BLOG"
+			}
+		},
+		{
+			"path": "pages/home/detail/index",
+			"style": {
+				"navigationBarTitleText": "BLOG-Detail"
+			}
+		},
+		{
+			"path": "pages/todo/index",
+			"style": {
+				"navigationBarTitleText": "TODO-List"
+			}
+		},
+		{
+			"path": "pages/todo/list/index",
+			"style": {
+				"navigationBarTitleText": "TODO-List-Detail"
+			}
+		},
+		
+		{
+			"path": "pages/bi/index",
+			"style": {
+				"navigationBarTitleText": "BI"
+			}
+		},
+		{
+			"path": "pages/bi/orderlist/index",
+			"style": {
+				"navigationBarTitleText": "OrderList"
+			}
+		},
+		{
+			"path": "pages/bi/datavisualization/index",
+			"style": {
+				"navigationBarTitleText": "DataVisualization"
+			}
+		},
+		{
+			"path": "pages/mine/index",
+			"style": {
+				"navigationBarTitleText": "uni-app"
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar":{
+		"color": "8a8a8a",
+		"selectedColor": "#d4237a",
+        "backgroundColor": "#fff",
+        "position": "bottom",
+		"borderStyle": "black",
+		"list": [{
+				"pagePath": "pages/home/index",
+				"text": "Home",
+				"iconPath": "./static/icon/_home.png",
+				"selectedIconPath": "./static/icon/home.png"
+			},
+			{
+				"pagePath": "pages/todo/index",
+				"text": "TODO",
+				"iconPath": "./static/icon/_todo.png",
+				"selectedIconPath": "./static/icon/todo.png"
+			},
+			{
+				"pagePath": "pages/bi/index",
+				"text": "BI",
+				"iconPath": "./static/icon/_search.png",
+				"selectedIconPath": "./static/icon/search.png"
+			},
+			{
+				"pagePath": "pages/mine/index",
+				"text": "我的",
+				"iconPath": "./static/icon/_my.png",
+				"selectedIconPath": "./static/icon/my.png"
+			}
+		]
+	}
+}

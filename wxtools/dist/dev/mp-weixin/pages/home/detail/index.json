@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "BLOG-Detail",
+  "usingComponents": {
+    "u-parse": "/components/u-parse/u-parse"
+  }
+}

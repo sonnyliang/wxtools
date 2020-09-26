@@ -1,0 +1,1 @@
+<view class="container"><navigator url="/pages/bi/orderlist/index"><view>查看订单</view></navigator><navigator url="/pages/bi/datavisualization/index"><view>数据可视化</view></navigator></view>

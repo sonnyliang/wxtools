@@ -1,0 +1,12 @@
+
+.container{
+    display:-webkit-box;
+    display:-webkit-flex;
+    display:flex;
+}
+.add-list{
+    position:absolute;
+    bottom: 100rpx;
+    right: 100rpx;
+}
+
